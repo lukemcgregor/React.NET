@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net40": {
+      "wrappedProject": "../../React.Web/React.Web.csproj",
+      "bin": {
+        "assembly": "../../React.Web/obj/{configuration}/React.Web.dll",
+        "pdb": "../../React.Web/obj/{configuration}/React.Web.pdb"
+      },
+      "dependencies": {
+        "Microsoft.Web.Infrastructure": "1.0.0",
+        "Newtonsoft.Json": "5.0.4",
+		"WebActivatorEx": "2.0.5"
+      }
+    }
+  }
+}
